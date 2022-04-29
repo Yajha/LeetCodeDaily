@@ -12,7 +12,6 @@ public class P145 {
     public List<Integer> postorderTraversal(TreeNode root) {
         if (root==null) return ans;
         Deque<TreeNode> deque=new ArrayDeque<>();
-        deque.offerLast(root);
         TreeNode node=root;
         TreeNode prev=null;
         while (!deque.isEmpty() || node!=null){
