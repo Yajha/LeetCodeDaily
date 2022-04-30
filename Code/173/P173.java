@@ -20,7 +20,7 @@ public class P173 {
     }
 
     public boolean hasNext() {
-        return idx<res.size();
+        return idx<res.size()-1;
     }
 
     public void inOrderTraversal(TreeNode root) {
